@@ -1,0 +1,146 @@
+body{
+    margin: 60px;
+    background-color: #07032b;
+    font-family: "Source Sans Pro", sans-serif;
+    color:rgb(96, 85, 194);
+    
+}
+
+div{
+    border: 1px solid rgb(19, 19, 19);
+}
+
+.main-page{
+    /* width: 64%;  */
+    width: 72%;
+    height:max-content; 
+    padding: 0;
+    margin: auto;
+    background-color:#252735;
+}
+
+.bare-min-page-size{
+    width: 100%;
+    height: 15vh;
+    /* height: 100vh; */
+    border: 0;
+    padding: 0;
+    margin: auto;  
+}
+
+.header-img{
+    width: 96%;
+    height: 450px;
+    border: 0;
+    padding: 0;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.header-img-actual{
+    object-position: bottom 160px right 0; 
+    width: 100%; 
+    object-fit: contain;
+}
+
+.nav-bar-holder{
+    width: 96%;
+    height: 70px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1;
+    padding: 0;
+    margin: auto;
+    margin-top: 0;
+}
+
+.under-nav-margin{
+    width: 100%;
+    height: 60px;
+    border: 0;
+    padding: 0;
+    margin: auto;
+    margin-top: 0;
+}
+
+.content-holder{
+    width: 87%;
+    height:max-content;
+    border: 0;
+    padding: 0;
+    margin: auto;
+    margin-top: 0;
+    
+}
+
+.content-holder-flex{
+    display: flex;
+    align-items:flex-start;
+}
+
+.profile-photo-holder{
+    flex: 25%;
+    border: 0;
+    
+}
+
+.profile-photo-actual{
+    width: 100%; 
+    border: 0;
+    /* height: 100%; */
+    object-fit: contain;
+    /* transform: rotate(-18deg);
+    object-position: bottom 20px right 15px;  */
+}
+
+.margin-and-written-holder{
+    flex:75%;
+    border:0;
+}
+
+.margin-and-written-holder-flex{
+    display: flex;
+    align-items:stretch;
+}
+
+
+.middle-margin{
+    flex:10%;
+    border: 0;
+    
+
+}
+.written-content-holder{
+    flex:90%;
+    /* border: 0; */
+    /* leaving the border here for now, will remove this later */
+}
+
+
+.my-photo{
+    
+    width: 100%;
+    height: 270px;
+    border: 0;
+    padding: 0;
+    margin: auto; 
+    overflow: hidden;
+}
+
+.quick-details-links{
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+    height: 180px;
+    border-bottom: 0 ;
+    border-top: 10;
+    border-right: 0;
+    border-left: 0;
+    padding: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: large;
+    line-height: 1.5;    
+}
