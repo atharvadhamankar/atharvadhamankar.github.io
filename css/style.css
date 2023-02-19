@@ -12,12 +12,12 @@ body{
     margin-right: 0;
     /* background-color: #07032b; */
     font-family: 'Lato';
-    /* background-image: url("/backgrounds/612547.jpg"); */
-    /* background-image: url("/backgrounds/973967.jpg");   */
-    /* background-image: url("/backgrounds/1579893.jpg"); */
-    /* background-image: url("/backgrounds/anime-scenery5.jpg"); */
-    background-image: url("/backgrounds/ghibli/yes/tot/done/ghibli (7).jpg");
-    /* background-image: url("/backgrounds/ghibli/maybe/tot/ghibli.jpg"); */
+    /* background-image: url("../backgrounds/612547.jpg"); */
+    /* background-image: url("../backgrounds/973967.jpg");   */
+    /* background-image: url("../backgrounds/1579893.jpg"); */
+    /* background-image: url("../backgrounds/anime-scenery5.jpg"); */
+    background-image: url("../backgrounds/ghibli/yes/tot/done/ghibli (7).jpg");
+    /* background-image: url("../backgrounds/ghibli/maybe/tot/ghibli.jpg"); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
