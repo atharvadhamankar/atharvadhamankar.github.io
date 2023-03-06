@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -12,12 +12,16 @@ body{
     margin-right: 0;
     /* background-color: #07032b; */
     font-family: 'Lato';
-    /* background-image: url("../backgrounds/612547.jpg"); */
-    /* background-image: url("../backgrounds/973967.jpg");   */
-    /* background-image: url("../backgrounds/1579893.jpg"); */
-    /* background-image: url("../backgrounds/anime-scenery5.jpg"); */
-    background-image: url("../backgrounds/ghibli/yes/tot/done/ghibli (7).jpg");
-    /* background-image: url("../backgrounds/ghibli/maybe/tot/ghibli.jpg"); */
+    /* background-image: url("/backgrounds/612547.jpg"); */
+    /* background-image: url("/backgrounds/973967.jpg");   */
+    /* background-image: url("/backgrounds/1579893.jpg"); */
+    /* background-image: url("/backgrounds/anime-scenery5.jpg"); */
+    /* background-image: url("/backgrounds/ghibli/maybe/tot/ghibli.jpg"); */
+    /* background-image: url("../backgrounds/ghibli/yes/tot/done/ghibli (7).jpg"); */
+    background-image: url("../backgrounds/ghibli (166).jpg");
+    background-image: url("C:/Users/ATHARVA/Downloads/DALL·E 1.png"); 
+    background-image: url("C:/My Files/git/Github/Website/atharvadhamankar/backgrounds/DALL·E 1.png"); 
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -27,6 +31,15 @@ body{
     color: #C2C2FF;
     
 }
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+   }
+hr {
+    border: 0;
+    border-top: 1.5px solid #9999FF;
+  }
+
 
 /* div{
     border: 1px solid rgb(19, 19, 19);
@@ -61,19 +74,31 @@ body{
 .header-img{
     width: 96%;
     min-width: 460px;
-    height: 20vw;
+    height: 24vw;
     min-height: 130px;
-
+    
     margin: auto;
     margin-top: 1.5vw;
 
     /* overflow: hidden; */
 
-    background-color: #9BA7B6;
-    opacity: 0.7;
+    background-color:#252735;
+    /* opacity: 0.7; */
         /* padding: 0; */
         /* background-color: rgb(223, 240, 255); */
 
+
+}
+
+.image_mask{
+    background-image: url("../backgrounds/ghibli (166).jpg");
+    background-image: url("C:/Users/ATHARVA/Downloads/DALL·E 1.png"); 
+    background-image: url("C:/My Files/git/Github/Website/atharvadhamankar/backgrounds/DALL·E 1.png"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100vw 100vh;
+    opacity: 1;
+    box-shadow: 0px -8px 19px 80px rgba(0,0,0,0.2);
 
 }
 
@@ -82,8 +107,13 @@ body{
     width: 100%; 
     object-fit: contain;
     height: 100%;
-    color: black;
-    font-size: 4.6vw;
+    color: rgb(0, 0, 0);
+    color: #191102;
+    color: #C2D7EE;
+    color: #EBF2F9;
+    color: #D5E3F3;
+
+    font-size: 3.5vw;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -93,8 +123,9 @@ body{
     /* font-family: 'Forum', cursive; */
     padding-right: 3.4vw;
     /* padding-top: 90px; */
-    padding-top: 8.2vw;
-
+    padding-top:7.2vw;
+    
+    /* border-bottom-left-radius:38vw 10vw; */
 }
 
 
@@ -102,7 +133,7 @@ body{
     display: flex;
     /* width: 96%; */
     width:69.2vw;
-    height: 4.75vw;
+    height: 4.25vw;
     border-left: 0;
     border-top: 0;
     border-right: 0;
@@ -113,11 +144,13 @@ body{
     position: absolute; 
     left: 50%;
     transform: translate(-50%, 0);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
 }
 
 .under-nav-margin{
     width: 100%;
-    height: 8.75vw;
+    height: 9.75vw;
     border: 0;
     padding: 0;
     margin: auto;
@@ -141,13 +174,13 @@ body{
 
 .profile-photo-holder{
     flex: 25%;
-
+    
     border: 0;
     
 }
 
 .profile-photo-actual{
-    width: 100%; 
+    width: 100%;
     border: 0;
     /* height: 100%; */
     object-fit: contain;
@@ -181,16 +214,18 @@ body{
 
 .my-photo{
     
-    width: 100%;
-    height: 18.8vw;
+    width: 80%;
+    height: 14.5vw;
     /* border: 0; */
     padding: 0;
     margin: auto; 
     overflow: hidden;
     /* display: inline; */
     opacity: 1;
-    transition: all 400ms ease;
+    transition: all 600ms ease-in;
 
+    /* transition: opacity 400ms ease; */
+    
 }
 
 .quick-details-links{
@@ -205,9 +240,10 @@ body{
     padding: 20px;
     padding-right: 0;
     padding-left: 0;
-    font-size: large;
+    padding-top: 7px;
+    /* font-size: large; */
     line-height: 1.5;    
-    font-size: 1vw;
+    font-size: 0.9vw;
     color: #9999FF; 
 }
 
@@ -220,11 +256,13 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #848484;
+
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 16px;
     color: black;
     text-decoration: none;
+    
 
 }
 
@@ -235,13 +273,14 @@ body{
     padding: 0.95vw;
     max-height: 100%;
     background-color: #555555;
+    background-color: #222840;
     margin: auto;
     color: white;
     border-radius: 3px 0px 0px 3px;
 
 }
 .scrollleft:hover {
-    background-color: #777;
+    background-color: #363C51;
   }
 .scrollright{
     display: flex;
@@ -250,12 +289,13 @@ body{
     padding: 0.95vw;
     max-height: 100%;
     background-color: #555555;
+    background-color: #222840;
     margin: auto;
     color: white;
     border-radius: 0px 3px 3px 0px ;
 }
 .scrollright:hover {
-    background-color: #777;
+    background-color: #363C51;
   }
 .scrollbut{
     max-height: 100%;
@@ -279,6 +319,7 @@ h2{
 
 .scrollmenu {
     background-color: #555555;
+    background-color: #222840;
     width:92%;
     overflow: auto;
     margin: auto;
@@ -288,7 +329,19 @@ h2{
     white-space: nowrap;
     font-size: 1.4vw;
     line-height: 1.8;
+    /* this last line is added to remove the buttons. to re add the buttons just remove this line and uncomment the butttons from the html */
+    width: 100%;
+    border-radius: 4px;
   }
+
+
+
+.nav_centerer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -303,7 +356,7 @@ h2{
   }
 
 .scrollmenu a:hover {
-    background-color: #777;
+    background-color: #363C51;
   }
 
 
@@ -311,6 +364,7 @@ h2{
     position: relative;
     height:max-content; 
     /* width: 100%; */
+    
 }
 
 .navwid{
@@ -324,23 +378,245 @@ h2{
     right: 50%;
     /* width:69.2vw; */
     width: 72vw
+    
   }
 
 .invisiblr{
     /* display:none; */
     opacity:0;
+    transition: all 600ms ease-out;
+    
 }
 .removrr{
     display:none;
+    
 }
 
 .stickyside {
     position: fixed;
     top: 100px;
     width:15.6vw;
+    z-index: 1;
+    
+    
 
   }
 
 .sub-sidebar{
     height:max-content;
+    
 }
+
+
+
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    overflow: hidden;
+    /* vertical-align:top; */
+    vertical-align:top;
+    
+  }
+
+  
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    display: inline-block;
+    color: white;
+    /* text-align: center; */
+    padding:0.95vw;
+    height: 100%;
+    text-decoration: none;
+
+
+  }
+
+
+
+.dropdown:hover {
+    background-color: #363C51;
+  }
+
+
+
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    margin-top: -0.15vw;
+    display: none;
+    position: absolute;
+    background-color: #555555;
+    background-color: #222840;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    flex-wrap: wrap;
+
+  
+
+
+
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+  
+  
+  /* Add a grey background to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #363C51;
+
+  }
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    /* position: absolute; */
+  }
+
+  .foot{
+    display: block;
+    color: #000000;
+    font-weight: 600;
+    font-size: x-small;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+
+/* ================================= */
+
+
+.card {
+    width: 80%;
+    height: max-content;
+    border-radius: 15px;
+    background: #282A36;
+    position: relative;
+    /* padding: 1.8rem; */
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin-left: 20px;
+   }
+   
+   .card-details {
+    color: #7F7EFF; 
+    /* height: 100%; */
+    /* gap: .5em; */
+    display: grid;
+    padding: 10px;
+
+    /* place-content: center; */
+   }
+   
+   
+   .card-body {
+    color: #C2C2FF;
+   }
+   .card-author-or-date{
+    text-align: right;
+   }
+   /*Text*/
+   .card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+    border-bottom-style: solid;
+    width: fit-content;
+    /* text-decoration: solid underline purple 2px; */
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #9595ff;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover {
+    /* transform: translate(-50%, 50%); */
+    opacity: 1;
+   }
+
+
+/* ============================================================= */
+.button_new {
+    font-family: monospace;
+    background-color: #f3f7fe;
+    color: #5e5dff;
+    border: none;
+    font-size: 1.1vw;
+    border-radius: 8px;
+    width: 11.5vw;
+    height: 2.5vw;
+    transition: .3s;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .button_new:hover {
+    background-color: 	#7c7bff;
+    box-shadow: 0 0 0 3px #5454e6;
+    box-shadow: 0 0 0 3px  #e0e0ff;
+    color: #fff;
+  }
+
+.web_image{
+    height: max-content;
+    width: 33.5vw;
+    margin: auto;
+}
+
+.web_image_actual{
+    height: 20.6vw;
+    width: 33.4vw;
+    object-fit: contain;
+    margin:auto;
+}
+.img_captions{
+    margin: auto;
+    text-align: center;
+    color: #9595ff;
+    font-size: 1vw;
+}
+
+.quick_links a {
+    display: block;
+    text-align: left;
+    padding: 3px 10px 3px 20px;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    transition: 0.5s ease-in-out;
+}
+
+.quick_links a:hover{
+    padding: 3px 10px 3px 45px;
+    color: #5e5dff;
+}
+
+
+
+
+.indenter{
+
+    margin-left: 5.75vw;
+    
+}
+
+
+
+
