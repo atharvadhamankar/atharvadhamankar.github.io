@@ -18,9 +18,16 @@ body{
     /* background-image: url("/backgrounds/anime-scenery5.jpg"); */
     /* background-image: url("/backgrounds/ghibli/maybe/tot/ghibli.jpg"); */
     /* background-image: url("../backgrounds/ghibli/yes/tot/done/ghibli (7).jpg"); */
+<<<<<<< Updated upstream
     background-image: url("../backgrounds/ghibli (166).jpg");
     background-image: url("C:/Users/ATHARVA/Downloads/DALL·E 1.png"); 
     background-image: url("C:/My Files/git/Github/Website/atharvadhamankar/backgrounds/DALL·E 1.png"); 
+=======
+    /* background-image: url("../backgrounds/ghibli (166).jpg"); */
+    /* background-image: url("C:/Users/ATHARVA/Downloads/DALL·E 1.png");  */
+    /* background-image: url("C:/My Files/git/Github/Website/atharvadhamankar/backgrounds/DALL·E 1.png");  */
+    background-image: url("../images/other/background.png");
+>>>>>>> Stashed changes
 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -91,9 +98,16 @@ hr {
 }
 
 .image_mask{
+<<<<<<< Updated upstream
     background-image: url("../backgrounds/ghibli (166).jpg");
     background-image: url("C:/Users/ATHARVA/Downloads/DALL·E 1.png"); 
     background-image: url("C:/My Files/git/Github/Website/atharvadhamankar/backgrounds/DALL·E 1.png"); 
+=======
+    /* background-image: url("../backgrounds/ghibli (166).jpg"); */
+    /* background-image: url("C:/Users/ATHARVA/Downloads/DALL·E 1.png");  */
+    /* background-image: url("C:/My Files/git/Github/Website/atharvadhamankar/backgrounds/DALL·E 1.png");  */
+    background-image: url("../images/other/background.png");
+>>>>>>> Stashed changes
     background-attachment: fixed;
     background-position: center;
     background-size: 100vw 100vh;
