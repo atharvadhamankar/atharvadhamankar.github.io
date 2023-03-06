@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atharva Dhamankars Website</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Atharva Dhamankar's Website</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
@@ -28,7 +28,7 @@
         <div class="header-img">
             <!-- add the header image here -->
             <!-- <img class="header-img-actual" src="header.jpg" alt="The Road to Eternity"/> -->   
-            <div class="header-img-actual">
+            <div id="image_mask" class="header-img-actual image_mask">
             Atharva Dhamankar
             </div>
             <!-- probably have a slideshow here -->
@@ -38,28 +38,102 @@
         <div id="nav_bar_holder" class="nav-bar-holder navwid">
             <!-- add the nav bar here -->
 
-        <div id="slideLeft" class="scrollleft">
+        <!-- <div id="slideLeft" class="scrollleft">
             <img src="left.png" class="scrollbut"/>
+        </div> -->
+
+
+
+
+
+
+
+
+
+        <div id="scrollability" class="scrollmenu ">
+
+            <!-- <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+            </div> -->
+
+            <div class="nav_centerer">
+            <!-- <a  class="dropdown" href="./main_template.html">blank template</a> -->
+            <!-- <a class="dropdown" id="nav_centerer"></a> -->
+            <a class="dropdown" href="./index.html">Home</a>
+
+            <div class="dropdown">
+                <!-- <div class="dropbtn">More Me</div> -->
+                <a class="dropbtn" href="./main_pages/More me.html">More Me</a>
+                <div class="dropdown-content">
+                  <a href="./main_pages\About me.html">About Me</a>
+                  <a href="#">Contact Me</a>
+                  <a href="#">Papers</a>
+                  <a href="#">Credits</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <!-- <div class="dropbtn">Archive</div> -->
+                <a class="dropbtn" href="#">Archive</a>
+                <div class="dropdown-content">
+                  <a href="#">Acheivements</a>
+                  <a href="#">Timeline</a>
+                  <a href="#">Gallery</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <!-- <div class="dropbtn">Thoughts</div> -->
+                <a class="dropbtn" href="#">Thoughts</a>
+                <div class="dropdown-content">
+                  <a href="#">Movies/Books/Anime...</a>
+                  <a href="#">Random Thoughts</a>
+                  <a href="#">Zen Page</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                    <!-- <div class="dropbtn">Projects</div> -->
+                    <a class="dropbtn" href="#">Projects</a>
+                <div class="dropdown-content">
+                  <a href="#">Ongoing</a>
+                  <a href="#">Completed</a>
+                  <a href="#">Upcoming</a>
+                  <a href="#">Blueprint Corner</a>
+                  <a href="#">Where Programmers Cry</a>
+                </div>
+            </div>
+
+
+            <a class="dropdown" href="#">Notes</a>
+
+            <div class="dropdown">
+                <!-- <div class="dropbtn">Other</div> -->
+                <a class="dropbtn" href="#">Other</a>
+                <div class="dropdown-content">
+                  <a href="#">Sketches</a>
+                  <a href="#">Quotes</a>
+                </div>
+            </div>
+
+            <!-- <a class="dropdown" href="#">Sketches</a> -->
+
+            <!-- <a href="#">Quotes</a> -->
+            <!-- <a href="#">Personal Website</a> -->
+            
         </div>
-        <div id="scrollability" class="scrollmenu">
-            <a href="./main_template.html">blank template</a>
-            <a href="#">Home</a>
-            <a href="#">More Me</a>
-            <!-- About Me/Contact Me/Papers/Credits -->
-            <a href="#">Archive</a>
-            <!-- Acheivements/Timeline/Gallery -->
-            <a href="#">My Thoughts</a>
-            <!-- Media Reviews/Random Thoughts/Zen Page -->
-            <a href="#">Projects</a>
-            <!-- Ongoing/Completed/Upcoming/Blueprint Corner/Where Programmers Cry -->
-            <a href="#">Notes</a>
-            <a href="#">Sketches</a>
-            <a href="#">Quotes</a>
-            <a href="#">My Personal Website</a>
+
           </div>
-        <div id="slideRight" class="scrollright">
+
+
+        <!-- <div id="slideRight" class="scrollright">
             <img src="right.png" class="scrollbut"/>
-        </div>
+        </div> -->
         </div>
         </div>
         
@@ -70,11 +144,13 @@
             <!-- the image sidebar and homepage content goes in here -->
             
             <div class="profile-photo-holder">
+                
                 <div class="sub-sidebar">
                 <!-- the photo and quick info go here -->
-                <div class="my-photo removrr">
+                <div class="my-photo removrr invisiblr">
                     <!-- add my photo here -->
-                    <img class="profile-photo-actual" src="IMG_4904new.jpg" alt="Me!"/>
+                    <!-- -----------------------------------<br> -->
+                    <img class="profile-photo-actual" src="images\other\me.jpg" alt="Me!"/>
                 </div>
 
                 <div class="quick-details-links">
@@ -87,7 +163,25 @@
                     runtimefunction.exe <br>
                     many fingers in many pies. <br>
                     <!-- add link to resume here -->
+                    <br>
+                    <!-- <hr>
+                    <div>
+                        <button class="button_new" onclick="location.href = '#';">
+                            Button
+                          </button>
+                        </div> -->
+                        <hr>
+                        <!-- <br> -->
+                    <div class="quick_links">
+                        <u><h2>Quick links</h2></u>
+                        <a href="#">>  My Resume</a>
+                        <a href="#">>  Lorem ipsum</a>
+                        <a href="#">>  Lorem ipsum</a>
+
+                        
+                    </div>
                     
+
                 </div>
                 </div>
             </div>
@@ -100,14 +194,18 @@
 
                 <div class="written-content-holder">
                     <!-- the written content of the page goes here -->
+                    <div class="counter_holder"></div>
+                    <br>
+                    <br>
                     <h1>Welcome!</h1>
                     <h2>About me : </h2>
                     hi this is some sample test material inside the box
+                    <hr>
+                    
+    
 
 
-
-
-
+                    
 
 
 
@@ -130,31 +228,33 @@
                     <div class="bare-min-page-size">
                         <!-- another place holder. this will def be deleted later on. -->
                     </div>
+                    <div class="bare-min-page-size">
+                        <!-- another place holder. this will def be deleted later on. -->
+                    </div>
+                    <div class="bare-min-page-size">
+                        <!-- another place holder. this will def be deleted later on. -->
+                    </div>
+                    <div class="bare-min-page-size">
+                        <!-- another place holder. this will def be deleted later on. -->
+                    </div>
+                    
                 </div>
             </div>
 
 
         </div>
         <div class="bare-min-page-size">
-            <!-- this is just a temp place holder so that i can design in peace. delete this div before deploying -->
-            <!-- or maybe leave in in but make the height smaller like something like this:
-            
-                .bare-min-page-size{
-                width: 100%;
-                height: 35vh;
-                border: 0;
-                padding: 0;
-                margin: auto;
-                }
-            -->
+
         </div>
     </div>
 
     <footer>
-        hi this is the copyright (insert xkcd joke)
+        <div class="foot">
+            copyright maybe? eeeh, idunno.
+        </div>
     </footer>
 </body>
 <script src="javascript/nav_scroll.js"></script>
 <script src="javascript/sticky_nav.js"></script>
-<!-- <script src="javascript/wallpapertester.js"></script> -->
+<script src="javascript/sticky_photo.js"></script>
 </html> 
