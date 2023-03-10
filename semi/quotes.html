@@ -19,7 +19,7 @@
 
 </head>
 
-<body class="bbody">
+<body class="bbody" onload="randomquote()">
     <!-- shooooooo go away, enjoy the website. -->
 
     <div class="main-page" >
@@ -144,26 +144,22 @@
         <div class="content-holder">
             <!-- the image sidebar and homepage content goes in here -->
             
-            <h1>Quotes I really find intresting</h1>
+            <h1>Quotes, <span style="font-size: medium;">I really find intresting</span> </h1>
             <br>
             <br>
 
 
-            <a href="./quotes.html">
-                <div class="card">
+                    
+                <div onclick="randomquote()" class="card unselectable">
                     <div class="card-details">
-                      <p class="card-body">Here are the details of the card<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit perspiciatis consequuntur neque veniam labore repudiandae deserunt. Ipsa, accusamus hic similique perspiciatis quasi veniam, deleniti autem id laboriosam nesciunt distinctio.
-                      </p>
-                      <p class="card-author-or-date">-The author of the quote
-                      </p>
                     </div>
             
                 </div>
-                </a>
+
             <br>
                 <br>
             <div class="indenter">
-            Click on the quote for a new one
+            Click on the quote for a new one ♻️
             </div>
 <br><br><br>
 
@@ -182,5 +178,6 @@
 </body>
 <script src="../javascript/nav_scroll.js"></script>
 <script src="../javascript/sticky_nav.js"></script>
+<script src="../javascript/quotes.js"></script>
 <!-- <script src="javascript/wallpapertester.js"></script> -->
 </html> 

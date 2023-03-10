@@ -1,0 +1,13 @@
+.web_image{
+    height: max-content;
+    width: 70.5vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.web_image_actual{
+    height: 40.6vw;
+    width: 33.4vw;
+    object-fit: contain;
+    margin:auto;
+}
