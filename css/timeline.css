@@ -19,7 +19,12 @@
 	 max-width: 980px;
 	 margin: 0 auto;
 }
+
+.timeline__section{
+	flex:75;
+}
  .timeline__nav {
+	flex: 25;
 	 position: absolute ;
 	 z-index: 2;
 	 top: 0;
